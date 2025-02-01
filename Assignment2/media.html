@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../Assets/CSS/styles.css">
+    <link rel="stylesheet" href="../Assets/CSS/styles.css" />
     <title>Media Elements</title>
   </head>
   <body>
@@ -17,12 +17,17 @@
     </header>
     <section>
       <h2>Audio Element</h2>
-      <audio src="" controls></audio>
+      <audio src="../Assets/audio/audio 1.mp3" controls></audio>
     </section>
 
     <section>
       <h2>Video Element</h2>
-      <video src="" controls></video>
+      <video
+        src="../Assets/videos/Hello video.mp4"
+        controls
+        height="300px"
+        width="300px"
+      ></video>
     </section>
 
     <section>
@@ -44,28 +49,28 @@
 
     <section>
       <h2>Source Element</h2>
-      <video>
-        <source src="" />
+      <video height="300px" width="300px" controls>
+        <source src="../Assets/videos/Hello video.mp4" />
       </video>
     </section>
 
     <section>
-        <h2>Track Element</h2>
-        <video controls>
-            <source src="">
-            <track src=""></track> 
-        </video>
-        <!-- this si used for subtitle. you convert your srt to vtt using happyscribe. You input a video and add the track -->
-    </section>
-
-    <section>
-        <h2>Picture Element</h2>
-        <picture> 
-           <source srcset="" media="[max-width: 600px]">
-           <source srcset="" media="[max-width: 900px]">
-           <source srcset="" media="[max-width: 1200px]">
-           <img src="" alt="">
-        </picture>
+      <h2>Picture Element</h2>
+      <picture>
+        <source
+          srcset="../Assets/pictures/pic 1.jpeg"
+          media="[max-width: 600px]"
+        />
+        <source
+          srcset="../Assets/pictures/pic 2.jpeg"
+          media="[max-width: 900px]"
+        />
+        <source
+          srcset="../Assets/pictures/pic 3.jpeg"
+          media="[max-width: 1200px]"
+        />
+        <img src="../Assets/pictures/pic 4.jpeg" alt="" />
+      </picture>
     </section>
   </body>
 </html>
