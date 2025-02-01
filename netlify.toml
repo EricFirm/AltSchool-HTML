@@ -1,4 +1,3 @@
 [build]
 base = "ALTSCHOOL HTML"
 publish = "ALTSCHOOL HTML"
-command = ""
