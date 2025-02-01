@@ -1,0 +1,4 @@
+[build]
+base = "ALTSCHOOL HTML"
+publish = "Assignment1"
+command = ""
