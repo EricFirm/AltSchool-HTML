@@ -1,4 +1,4 @@
 [build]
-base = "ALTSCHOOL HTML"
+base = "Assignment1"
 publish = "Assignment1"
 command = ""
